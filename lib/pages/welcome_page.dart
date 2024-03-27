@@ -8,7 +8,7 @@ import 'package:yuuka_downloader_flutter/subfunction/launch_url.dart';
 import 'package:yuuka_downloader_flutter/subfunction/yuuka_logger.dart';
 import 'package:yuuka_downloader_flutter/theme/font.dart';
 
-const appVersion = '1.0.0.1Build20240326';
+const appVersion = '1.0.0.2Build20240327';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});

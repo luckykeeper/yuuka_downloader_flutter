@@ -9,7 +9,7 @@ List<String> downloadLinkListGenerator(DownloadLinkAnalyzeResult downloadInfo) {
       String thisDownloadLink = "";
       thisDownloadLink = "${downloadInfo.analysisResult["protocol"]!}://";
       if (downloadInfo.analysisResult["prefix"]!.isNotEmpty) {
-        thisDownloadLink += "${downloadInfo.analysisResult["prefix"]!}.";
+        thisDownloadLink += "${downloadInfo.analysisResult["prefix"]!}";
       }
       thisDownloadLink +=
           "llgal.xyz/${downloadInfo.analysisResult["subArea"]!}/${downloadInfo.analysisResult["baseUrl"]!}.part${i + 1}.${downloadInfo.analysisResult["fileType"]!}";
